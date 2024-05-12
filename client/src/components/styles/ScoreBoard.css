@@ -1,0 +1,79 @@
+.exam-container {
+  margin: 5%;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(82, 84, 83, 0.5);
+}
+
+.score-details {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.score-details p {
+  margin-bottom: 10px;
+}
+
+.score-details p:last-child {
+  margin-bottom: 0;
+}
+
+/* Add this to your ScoreBoard.css file */
+
+.score-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.score-table th,
+.score-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.score-table th {
+  background-color: #3a7d90;
+  color: #fff;
+}
+
+.score-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.score-table tbody tr:nth-child(odd) {
+  background-color: #fff; /* Default background color for odd rows */
+}
+
+.highlighted {
+  background-color: #ff9e99 !important; /* Change this color to your desired highlight color */
+}
+
+#scoe-con {
+  align-items: center;
+  justify-content: center;
+}
+
+#congratulations-message {
+  font-weight: 500;
+}
+
+#pdfButton {
+  background-color: #3a7d90;
+  border-radius: 5px;
+  color: #f9f9f9;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+}
+
+#emlem {
+  height: 200px;
+  width: 200px;
+  align-items: center;
+}

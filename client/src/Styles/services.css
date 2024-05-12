@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:wght@100&display=swap');
+body {
+    font-family: "Ubuntu";
+  }
+.heading{
+    text-align: center;
+    font-size: 6rem;
+   font-family: 'Rajdhani', sans-serif;
+  
+  }
+  .services{
+    height: 1050px;
+    margin-top: 3rem;
+    background-color: white;
+    
+  }
+ h4{
+  color: #EE3731;
+
+  }
+  .services h3{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-family: 'Rajdhani', sans-serif;
+   
+  }
+  .services-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 0 25rem;
+  }
+  .services-container .services-box-service{
+    flex: 1 1 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #ffffff;
+    padding: 4rem 2rem 4rem;
+    height: 400px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border: 2px solid #2a2b2a;
+  }
+  .services-container .services-box-service:hover{
+    transform: scale(1.08);
+    background-color: #EE3731;
+    color: #ffffff;
+    border: none;
+  }
+  .services-box-service h3{
+    font-size: 2.6rem;
+  }
+  .services-box-service p{
+    font-size: 1rem;
+    margin: 1rem 0 3rem;
+    font-weight: 500;
+  }
+  .services-box-service .btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: #2a2b2a;
+    font-size: 1.6rem;
+    font-style: none;
+    color: #2a2b2a;
+    border: 2px solid #EE3731;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out; 
+    cursor: pointer;
+    text-decoration: none; 
+    font-family: 'Rajdhani', sans-serif;
+  }
+  .services-box-service .btn{
+    background-color: #EE3731;
+    border: 2px solid #ffffff;
+   
+  }
+.services-box-service .btn:hover {
+    border: 2px solid #ffffff;
+    color: #000;
+    background-color: #ffffff;
+    font-weight: 700;
+   
+}

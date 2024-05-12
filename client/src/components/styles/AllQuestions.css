@@ -1,0 +1,93 @@
+#topRightContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#search {
+  flex: 1;
+}
+
+#addQuestions {
+  background-color: #3a7d90;
+  color: white;
+  margin-right: 5px;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#addQuestions:hover {
+  background-color: #205662;
+}
+
+#tableResponsive {
+  width: 100%;
+}
+
+#questionsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#tableHead th,
+#questionsTable td {
+  padding: 8px;
+  text-align: left;
+}
+
+#tableHead th {
+  background-color: #3a7d90;
+  color: white;
+}
+
+#questionsTable td {
+  border-bottom: 1px solid #ddd;
+}
+
+#iconCell {
+  width: 80px;
+}
+
+#iconCell a {
+  color: #3a7d90;
+}
+
+/* Pagination.css */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination li a {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  text-decoration: none;
+}
+
+.pagination li.active a {
+  background-color: #3a7d90;
+  color: #fff;
+  border: 1px solid #3a7d90;
+}
+
+.pagination li a:hover {
+  background-color: #3a7d90;
+  color: #fff;
+  border: 1px solid #3a7d90;
+  cursor: pointer;
+}

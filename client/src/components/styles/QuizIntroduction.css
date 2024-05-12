@@ -1,0 +1,41 @@
+.quiz-container {
+  margin: 10%;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(82, 84, 83, 0.5);
+}
+
+.h1 {
+  color: #3a7d90;
+}
+
+.p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.ol {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.start-button {
+  background-color: #3a7d90;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #205662;
+}
+
+#instruction {
+  margin-bottom: 10px;
+}

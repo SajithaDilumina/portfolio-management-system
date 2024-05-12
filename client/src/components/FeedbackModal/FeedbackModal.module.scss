@@ -1,0 +1,64 @@
+/* Modal Container */
+.modalContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: aliceblue;
+
+  }
+  
+  /* Modal Content */
+  .modalContent {
+    background: url("../../assets/Images/bg/login-bg-style-1.jpg");
+    overflow: auto;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    width: 880px; /* Set width of the modal */
+  }
+  
+  /* Modal Header */
+  .modalHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  /* Modal Title */
+  .modalTitle {
+    color: #f6f6f6;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Modal Close Button */
+ .modalCloseButton {
+    cursor: pointer;
+    color: #888;
+    font-size: 18px;
+  }
+  
+  /* Modal Body */
+  .modalBody {
+    /* Add styles for modal body content */
+    .Btn{
+        color: aliceblue;
+        background: #3A7D90;
+       }
+       .Btn:hover{
+        color: #f6f6f6;
+        background: #117793;
+       }
+       .CBtn{
+        margin-left: 1rem;
+        color: aliceblue;
+       }
+         .CBtn:hover{
+          color: #f6f6f6;
+          background: #117793;
+         }
+  }
+  
+ 

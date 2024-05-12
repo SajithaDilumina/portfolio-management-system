@@ -1,0 +1,148 @@
+
+@import "../../assets/theme/constants.scss";
+.container {
+  position: fixed;
+    background: url("../../assets/Images/bg/login-bg-style-1.jpg");
+    overflow: hidden;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  .login {
+    margin: 18px 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    .logincard {
+          margin-top: 6rem;
+          border: 1px solid #555555;
+          border-radius: 14px;
+          padding: 0 24px;
+          width: 480px;
+          height: 660px;
+          // margin: 0 auto;
+          background: $bgColorSidebar;
+    
+          @media all and (max-width: $s) {
+            width: 80%;
+          }
+
+          .loginActions {
+            //  padding: 10px 0 10px;
+    
+            text-align: center;
+    
+            @media all and (max-width: 540px) {
+              width: auto;
+            }
+    
+            .logo {
+              // max-width: 150px;
+              padding: 15px 0px;
+              text-align: center;
+    
+              @media all and (max-width: $s) {
+                padding: 20px 0 0px;
+              }
+            }
+    
+            h1 {
+              border-bottom: 1px solid #555555;
+              color: #818286;
+              padding-bottom: 15px;
+              padding: 10px 0;
+              font-size: 20px;
+              font-weight: 500;
+              vertical-align: middle;
+              margin: 8px 0;
+    
+              font-size: 20px;
+            }
+            p {
+              border-top: 1px solid #555555;
+              line-height: 20px;
+              font-size: 14px;
+            
+              color: #ffffff;
+            }
+    
+            .loading {
+              color: white;
+              margin-right: 10px;
+            }
+    
+            .circular {
+              color: white;
+            }
+    
+            .loginNotificationnew {
+              background-color: red;
+            }
+    
+            .loginNotification {
+              // margin-top: 60px;
+    
+              p {
+                font-size: 13px;
+                display: block;
+                padding: 3px 8px;
+    
+                a {
+                  text-decoration: underline !important;
+                }
+              }
+    
+              .isAuthorizing {
+                background: #fff8cb;
+              }
+             
+    
+           
+            }
+    
+            .loginFooter {
+              font-size: 14px;
+              color: white;
+            }
+    
+            .primaryBtn {
+              width: 100%;
+              margin-top: 12px;
+              font-weight: 600;
+              padding-top: 14px;
+              padding-bottom: 14px;
+              margin-top: 40px;
+              margin-bottom: 30px;
+              background: $red;
+              color: white;
+              margin-bottom: 0.4em !important;
+              font-size: 10px;
+              text-transform: capitalize !important;
+              &.disabled {
+               background: $gray !important; 
+               color: black
+              }
+            }
+            .secondary{
+              margin-top: 10px;
+              margin-bottom: 30px;
+              padding-top: 14px;
+              padding-bottom: 14px;
+              width: 100%;
+              background: rgb(26, 122, 151);
+
+              color: white;
+              font-size: 10px;
+              text-transform: capitalize !important;
+            }
+          }
+        }
+ /* Hide scrollbar */
+ &::-webkit-scrollbar {
+  width: 0;
+}
+  }
+
+}
+
+
+  

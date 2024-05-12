@@ -1,0 +1,51 @@
+/* userdetails.css */
+
+/* Container for the post details */
+.post-details-container {
+    padding: 20px;
+  }
+  
+  /* Title styling */
+  .post-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Profile image styling */
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; /* Make it round */
+    margin-bottom: 20px;
+  }
+  
+  /* Text styling */
+  .post-text {
+    margin-bottom: 10px;
+  }
+  
+  /* Gallery styling */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .gallery-item {
+    width: calc(33.33% - 10px); /* Adjust the width as needed */
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Bio styling */
+  .bio {
+    font-style: italic;
+  }
+  

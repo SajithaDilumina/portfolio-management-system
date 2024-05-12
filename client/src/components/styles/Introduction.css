@@ -1,0 +1,38 @@
+.body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Background color */
+  
+}
+
+.intro-container {
+  height: 45vh;
+  margin: 7%;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(82, 84, 83, 0.5);
+}
+
+.h1 {
+  color: #3a7d90; /* Theme color for headings */
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.action-button {
+  background-color: #3a7d90; /* Theme color for buttons */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #205662; /* Darker shade on hover */
+}
